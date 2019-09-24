@@ -140,6 +140,7 @@ div#contactDropdown.dropdown-content.show {
     margin-top: 3.22%;
     margin-left: 16%;
     padding-bottom: 2.97%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
 .sep-11 {
