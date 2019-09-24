@@ -1,0 +1,17 @@
+<div class="frame">
+  <div style="text-align:center">
+    <h2>
+      {{ title }}!
+    </h2>
+    <img width="300" alt="Angular Logo" src="assets/quadro.png">
+    <h4>
+      created by Miloš Vejnović
+    </h4>
+  </div>
+  <div style="text-align:center">
+    <button class="navButton" routerLink="/task" routerLinkActive="active">Task</button>
+    <button class="navButton" routerLink="/bonus" routerLinkActive="active">Bonus</button>
+    <button class="navButton" routerLink="/readme" routerLinkActive="active">Readme</button>
+  </div>
+</div>
+<router-outlet></router-outlet>
